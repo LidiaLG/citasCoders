@@ -1,6 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 import { FaEnvelope, FaPhoneAlt, FaTwitter} from "react-icons/fa";
+import './../../Scss/reset.scss';
+import '../../Scss/variables.scss';
 
 const Footer = () => {
   return (
@@ -18,9 +20,9 @@ const Footer = () => {
 export default Footer
 
 export const FooterBox = styled.div `
-  background: EEF6F5;
+  background : #EFF5F5;
   width: 100%;
-  height: 2.5rem;
+  height: 50px;
   position: fixed;
   bottom: 0;
   display: flex;
