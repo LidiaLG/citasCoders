@@ -27,6 +27,9 @@ export const FooterBox = styled.div `
   bottom: 0;
   display: flex;
   justify-content: center;
+  border-width: 0.1rem;
+  border-style: solid;
+  border-bottom: #333333;
 `;
 
 export const FooterWrapper = styled.div `
