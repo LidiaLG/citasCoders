@@ -11,8 +11,8 @@ const Home = () => {
       </div>
       <div className = "loginContainer">
         <form className = "formLogin" method='post'>
-          <label for = "POST-name">UserName:</label>
-          <input type = "text" name = "name"></input>
+          <label for = "POST-name">Email:</label>
+          <input type = "email" name = "email"></input>
           <label>Password:</label>
           <input type = "password"></input>
           <button className = "btnLogin"><a href = "/profile" >Login</a></button>
